@@ -1,4 +1,4 @@
-// 콜백 함수 : 
+// 콜백 함수 : 함수를 실행하는데 기다리지 않고 그다음 코드를 실행한 후 연산이 끝났을 때 파라미터로 전달되는 함수
 function add(a,b,callback){
     var result = a+b;
     callback(result);
