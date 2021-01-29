@@ -15,5 +15,5 @@ Calc.prototype.add = function(a,b){
     return a+b;
 }
 
-module.exports = Calc;
-module.exports.title = 'calculator';
+module.exports = Calc; // 모듈을 불러들이는 쪽에서 Calc객체를 참조할 수 있도록 객체를 지정
+module.exports.title = 'calculator'; // title의 속성 값으로 이름설정
